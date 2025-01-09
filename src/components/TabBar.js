@@ -14,20 +14,12 @@ const TabBar = () => {
   const location = useLocation();
 
     const tabs = [
-      { icon: searchIcon, path: '/gig-search',label: 'Research' },
+      { icon: searchIcon, path: '/search',label: 'Search' },
       { icon: financeIcon, path: '/finance', label: 'Finance' },
       { icon: homeIcon, path: '/',  label: 'Home' },
       { icon: messageIcon, path: '/messaging',label: 'Messages' },
       { icon: profileIcon, path: '/profile',label: 'Profile' },
   ];
-
-  // const tabs = [
-  //   { icon: <AiOutlineSearch size={24} />, path: '/search', label: 'Search' },
-  //   { icon: <BsStack size={24} />, path: '/gig-research', label: 'Research' },
-  //   { icon: <AiOutlineHome size={24} />, path: '/', label: 'Home' },
-  //   { icon: <AiOutlineMessage size={24} />, path: '/messaging', label: 'Messages' },
-  //   { icon: <FiUser size={24} />, path: '/profile', label: 'Profile' },
-  // ];
 
   return (
     <div style={styles.container}>
