@@ -42,16 +42,18 @@ const TabBar = () => {
 const styles = {
   container: {
     position: 'fixed',
-    bottom: 0,
-    left: 0,
-    right: 0,
+    bottom: '10px', // Raised for a floating effect
+    left: '10px',
+    right: '10px',
     height: '70px',
     backgroundColor: '#fff',
     display: 'flex',
     justifyContent: 'space-around',
     alignItems: 'center',
-    borderTop: '1px solid #ddd',
-    boxShadow: '0px -2px 5px rgba(0, 0, 0, 0.1)',
+    borderRadius: '20px',
+    border: '1px solid #bbb',
+    boxShadow: '0 10px 5px rgba(0, 0, 0, 0.1)', // Adds the shadow at the bottom
+    zIndex: 10,
   },
   tab: {
     display: 'flex',

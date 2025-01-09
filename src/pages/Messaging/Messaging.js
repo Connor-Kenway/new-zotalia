@@ -48,8 +48,8 @@ const styles = {
     alignItems: 'center',
   },
   headerPlaceholder: {
-    width: '80%',
-    height: '20px',
+    width: '90%',
+    height: '30px',
     backgroundColor: '#e0e0e0',
     borderRadius: '10px',
   },

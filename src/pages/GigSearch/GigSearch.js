@@ -45,14 +45,14 @@ const styles = {
     backgroundColor: '#fff',
   },
   header: {
-    height: '60px',
+    height: '80px',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
   },
   headerPlaceholder: {
-    width: '80%',
-    height: '20px',
+    width: '90%',
+    height: '30px',
     backgroundColor: '#e0e0e0',
     borderRadius: '10px',
   },
